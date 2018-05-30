@@ -1,0 +1,309 @@
+/*my code starts here*/
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    background-image: url(background-image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+h1{
+    color: black;
+    font-size: 30px;
+}
+
+.wrapper{   
+    background-color: darkblue;
+    height: 60px;
+}
+
+nav{
+    width: auto;
+    height: 80px;
+    color: white;
+}
+
+#name{
+    font-size: 28px;
+    font-weight: 600;
+    margin: 0px 225px;
+    height: 60px;
+    width: 250px;
+    line-height: 0;
+    text-align: center;
+    background-color: grey;
+}
+
+ul{
+    margin: 5px 1040px;
+    width: 250px;
+    height: 20px;
+}
+
+ul, li{
+    list-style: none;
+    display: inline-block;
+    line-height: 20px;
+}
+
+ul, li, a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    float: left;
+    padding: 2px;
+}
+
+ul, li, a:hover{
+    color: red;
+}
+
+li+li { border-left: 1px solid white; 
+}
+
+a{
+    color:white;
+    font-size: 20px;
+}
+
+.container{
+    background-color:white;
+    margin: 40px auto;
+    padding: 20px 20px 20px 10px;
+    border: solid 2px;
+    width: 1000px;
+    height: 300px;
+}
+
+p{
+    padding-top: 20px;
+}
+
+img{
+    width:200px;
+    height:200px;
+    padding: 20px;
+    float: left;
+}
+
+#message-area{
+    height: auto;
+    width: 950px;
+}
+
+.container-contact{
+    background-color:white;
+    margin: 40px auto;
+    padding: 20px 20px;
+    border: solid 2px;
+    width: 1000px;
+    height: auto;
+}
+
+form{
+    width: 1000px;
+    height: 300px;
+}
+
+#contact-L1{
+    width: 950px;
+}
+
+#contact-L2{
+    width: 950px;
+}
+
+.portfolio-box{
+    background-color:white;
+    margin: 40px auto;
+    padding: 20px 20px;    
+    border: solid 2px;
+    width: 1000px;
+    height: 600px;
+}
+
+.portfolio-image{
+    float: left;
+    width:200px;
+    height:200px;
+    margin: 10px 10px;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    height: 45px;
+    width: 100%;
+    background-color: darkblue;
+    color: white;
+}
+
+@media screen and (max-width: 980px) {
+    #name{
+        margin: 0px 500px 0px 20px;
+    }
+
+    ul{
+        margin: 10px 725px 0px;
+    }
+    
+    .container{
+        margin: 40px 500px 0 20px;
+        border: solid 2px;
+        width: 500px;
+        height: auto;
+    }
+
+    .portfolio-box{
+        margin: 40px 500px 100px 20px;
+        border: solid 2px;
+        width: 500px;
+        height: 750px;
+    }
+
+    .container-contact{
+        margin: 40px 500px 0 20px;
+        border: solid 2px;
+        width: 500px;
+        height: auto;
+    }
+
+    #contact-L1{
+        width: 460px;
+    }
+
+    #contact-L2{
+        width: 460px;
+    }
+
+    #message-area{
+        width: 460px;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #name{
+        margin: 0px 200px 0px 20px;
+    }
+
+    ul{
+        margin: 10px 525px 0px;
+    }
+    
+    .container{
+        margin: 40px auto;
+        border: solid 2px;
+        width: 700px;
+        height: auto;
+    }
+
+    .portfolio-box{
+        margin: 40px 500px 0px 20px;
+        border: solid 2px;
+        width: 700px;
+        height: 750px;
+    }
+
+    .container-contact{
+        margin: 40px 500px 0 20px;
+        border: solid 2px;
+        width: 700px;
+        height: auto;
+    }
+
+    #contact-L1{
+        width: 660px;
+    }
+
+    #contact-L2{
+        width: 660px;
+    }
+
+    #message-area{
+        width: 660px;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .wrapper{
+        height: 80px;
+    }
+   
+    #name{
+        margin: 0;
+        width: 100%;
+        height: 45px;
+        text-align: center;
+    }
+
+    ul{
+        margin: 0px 200px 0px 200px;
+        height: 20px;
+    }
+    
+    li+li{
+        height: 0;
+    }
+
+    a{
+        margin: 50px auto 0 auto;
+    }
+    .container{
+        margin: 40px auto;
+        border: solid 2px;
+        width: auto;
+        height: auto;
+    }
+
+    .portfolio-box{
+        margin: 20px auto;
+        border: solid 2px;
+        width: 600px;
+        height: 1200px;
+    }
+
+    .portfolio-image{
+       clear: both;
+       width: 100%;
+       padding: auto;
+    }
+
+    img{
+        padding: 0;
+        margin: 0;
+        width: 100%;
+    }
+
+    #profile-image{
+        width: auto;
+        padding-right: 10px;
+    }
+
+    .container-contact{
+        margin: 20px 10px;
+        border: solid 2px;
+        width: auto;
+        height: auto;
+    }
+
+    #contact-L1{
+        width: 460px;
+    }
+
+    #contact-L2{
+        width: 460px;
+    }
+
+    #message-area{
+        width: 460px;
+        height: auto;
+    }
+}
