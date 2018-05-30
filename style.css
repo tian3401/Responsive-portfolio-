@@ -17,6 +17,20 @@ h1{
     font-size: 30px;
 }
 
+.hr{
+    background-color: black;
+    height: 1px;
+}
+
+.spacing{
+    padding: 5px 0px;
+}
+
+span{
+    background:red;
+    padding: 4px 1px;
+}
+
 .wrapper{   
     background-color: darkblue;
     height: 60px;
@@ -103,7 +117,7 @@ img{
     padding: 20px 20px;
     border: solid 2px;
     width: 1000px;
-    height: auto;
+    height: 300px;
 }
 
 form{
@@ -171,7 +185,7 @@ footer{
         margin: 40px 500px 0 20px;
         border: solid 2px;
         width: 500px;
-        height: auto;
+        height: 300px;
     }
 
     #contact-L1{
@@ -215,7 +229,7 @@ footer{
         margin: 40px 500px 0 20px;
         border: solid 2px;
         width: 700px;
-        height: auto;
+        height: 450px;
     }
 
     #contact-L1{
