@@ -26,11 +26,6 @@ h1{
     padding: 5px 0px;
 }
 
-span{
-    background:red;
-    padding: 4px 1px;
-}
-
 .wrapper{   
     background-color: darkblue;
     height: 60px;
@@ -156,6 +151,7 @@ footer{
     width: 100%;
     background-color: darkblue;
     color: white;
+    text-align: center;
 }
 
 @media screen and (max-width: 980px) {
@@ -171,7 +167,7 @@ footer{
         margin: 40px 500px 0 20px;
         border: solid 2px;
         width: 500px;
-        height: auto;
+        height: 450px;
     }
 
     .portfolio-box{
@@ -215,7 +211,7 @@ footer{
         margin: 40px auto;
         border: solid 2px;
         width: 700px;
-        height: auto;
+        height: 450px;
     }
 
     .portfolio-box{
@@ -274,7 +270,7 @@ footer{
         margin: 40px auto;
         border: solid 2px;
         width: auto;
-        height: auto;
+        height:600px;
     }
 
     .portfolio-box{
@@ -305,19 +301,19 @@ footer{
         margin: 20px 10px;
         border: solid 2px;
         width: auto;
-        height: auto;
+        height: 450px;
     }
 
     #contact-L1{
-        width: 460px;
+        width: auto;
     }
 
     #contact-L2{
-        width: 460px;
+        width: auto;
     }
 
     #message-area{
-        width: 460px;
+        width: auto;
         height: auto;
     }
 }
