@@ -154,6 +154,10 @@ footer{
     text-align: center;
 }
 
+#hangman{
+    text-align: center;
+}
+
 @media screen and (max-width: 980px) {
     #name{
         margin: 0px 500px 0px 20px;
